@@ -47,11 +47,9 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let polyline = MKPolyline(coordinates: coords, count: coords.count)
         
         //Add `MKPolyLine` as an overlay.
-//        mapView.add(testline)
         mapView.add(polyline)
         
         mapView.delegate = self
-        
         
         // use basecamp to get approximate center, and then use bounds to set the span.
         let bounds = meta.bounds()
@@ -68,10 +66,6 @@ class ViewController: UIViewController, MKMapViewDelegate {
         
         mapView.centerCoordinate = center
         mapView.region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: CLLocationDegrees(latDelta), longitudeDelta: CLLocationDegrees(lonDelta)))
-        
-//        mapView.region = MKCoordinateRegion(center: coords2, span: MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02))
-
-
     }
 
     func mapView(_ mapView: MKMapView, rendererFor overlay: MKOverlay) -> MKOverlayRenderer {
@@ -82,7 +76,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
             testlineRenderer.lineWidth = 2.0
             return testlineRenderer
         }
-        fatalError("Something wrong...")
+        fatalError("error creating renderer")
         //return MKOverlayRenderer()
     }
     
@@ -90,7 +84,5 @@ class ViewController: UIViewController, MKMapViewDelegate {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
 }
 
