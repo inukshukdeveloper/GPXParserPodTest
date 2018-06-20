@@ -93,7 +93,6 @@ class ViewController: UIViewController, MKMapViewDelegate {
             return testlineRenderer
         }
         fatalError("error creating renderer")
-        //return MKOverlayRenderer()
     }
     
     override func didReceiveMemoryWarning() {
