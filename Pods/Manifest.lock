@@ -1,0 +1,16 @@
+PODS:
+  - GPXXMLParser (1.0.11)
+
+DEPENDENCIES:
+  - GPXXMLParser
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - GPXXMLParser
+
+SPEC CHECKSUMS:
+  GPXXMLParser: 5fc0f0b4f66ad6be00c2edf03bd4699f87c038db
+
+PODFILE CHECKSUM: 667d5b26affe28022f9b873b5517d70e15669cc6
+
+COCOAPODS: 1.5.3

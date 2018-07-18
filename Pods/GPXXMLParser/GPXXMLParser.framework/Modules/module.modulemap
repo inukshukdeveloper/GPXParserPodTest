@@ -1,0 +1,11 @@
+framework module GPXXMLParser {
+  umbrella header "GPXXMLParser.h"
+
+  export *
+  module * { export * }
+}
+
+module GPXXMLParser.Swift {
+    header "GPXXMLParser-Swift.h"
+    requires objc
+}
