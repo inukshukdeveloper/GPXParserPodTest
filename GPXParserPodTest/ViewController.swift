@@ -63,7 +63,7 @@ class ViewController: UIViewController, MKMapViewDelegate {
         let polyline = MKPolyline(coordinates: coords, count: coords.count)
         
         //Add `MKPolyLine` as an overlay.
-        mapView.add(polyline)
+        mapView.addOverlay(polyline)
         
         mapView.delegate = self
         
