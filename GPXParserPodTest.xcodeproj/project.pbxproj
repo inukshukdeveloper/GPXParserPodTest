@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41669E66DB85FDF8CA917B92 /* Pods_GPXParserPodTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C1F9B7EC4F6CE25794D9321 /* Pods_GPXParserPodTest.framework */; };
 		4D50A64420D1B71B0099505C /* Oregon Outback.GPX in Resources */ = {isa = PBXBuildFile; fileRef = 4D50A64320D1B71B0099505C /* Oregon Outback.GPX */; };
 		4DDD39F820CCA7580031A048 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDD39F720CCA7580031A048 /* AppDelegate.swift */; };
 		4DDD39FA20CCA7580031A048 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDD39F920CCA7580031A048 /* ViewController.swift */; };
@@ -15,7 +16,6 @@
 		4DDD3A0220CCA7590031A048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DDD3A0120CCA7590031A048 /* Assets.xcassets */; };
 		4DDD3A0520CCA7590031A048 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DDD3A0320CCA7590031A048 /* LaunchScreen.storyboard */; };
 		4DDD3A1020CCA7590031A048 /* GPXParserPodTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDD3A0F20CCA7590031A048 /* GPXParserPodTestTests.swift */; };
-		5C86B7E000A00D565B1FA7BB /* Pods_GPXParserPodTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20CD0CC302507CFBB855189D /* Pods_GPXParserPodTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		20CD0CC302507CFBB855189D /* Pods_GPXParserPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPXParserPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C1F9B7EC4F6CE25794D9321 /* Pods_GPXParserPodTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GPXParserPodTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BCA2C6E0D24FC96F15E8AF0 /* Pods-GPXParserPodTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPXParserPodTest.release.xcconfig"; path = "Target Support Files/Pods-GPXParserPodTest/Pods-GPXParserPodTest.release.xcconfig"; sourceTree = "<group>"; };
 		4D50A64320D1B71B0099505C /* Oregon Outback.GPX */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Oregon Outback.GPX"; sourceTree = "<group>"; };
 		4DDD39F420CCA7580031A048 /* GPXParserPodTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPXParserPodTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DDD39F720CCA7580031A048 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -42,8 +43,7 @@
 		4DDD3A0B20CCA7590031A048 /* GPXParserPodTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GPXParserPodTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DDD3A0F20CCA7590031A048 /* GPXParserPodTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GPXParserPodTestTests.swift; sourceTree = "<group>"; };
 		4DDD3A1120CCA7590031A048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A0A20C6F01130AC685A2DE4E /* Pods-GPXParserPodTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPXParserPodTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPXParserPodTest/Pods-GPXParserPodTest.debug.xcconfig"; sourceTree = "<group>"; };
-		E431BFBA20E3A856FA08F550 /* Pods-GPXParserPodTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPXParserPodTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPXParserPodTest/Pods-GPXParserPodTest.release.xcconfig"; sourceTree = "<group>"; };
+		AAFD62D7B1BFDC50D24914C6 /* Pods-GPXParserPodTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPXParserPodTest.debug.xcconfig"; path = "Target Support Files/Pods-GPXParserPodTest/Pods-GPXParserPodTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5C86B7E000A00D565B1FA7BB /* Pods_GPXParserPodTest.framework in Frameworks */,
+				41669E66DB85FDF8CA917B92 /* Pods_GPXParserPodTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,8 +72,8 @@
 				4DDD39F620CCA7580031A048 /* GPXParserPodTest */,
 				4DDD3A0E20CCA7590031A048 /* GPXParserPodTestTests */,
 				4DDD39F520CCA7580031A048 /* Products */,
-				7A2934DC20CA326B024256D3 /* Pods */,
-				BCD45F2D502A1901B1A4F5FA /* Frameworks */,
+				69FFA0FFDF5EE7CD2508D13C /* Pods */,
+				D6C248A25C7798420F3EFFDA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,19 +109,19 @@
 			path = GPXParserPodTestTests;
 			sourceTree = "<group>";
 		};
-		7A2934DC20CA326B024256D3 /* Pods */ = {
+		69FFA0FFDF5EE7CD2508D13C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				A0A20C6F01130AC685A2DE4E /* Pods-GPXParserPodTest.debug.xcconfig */,
-				E431BFBA20E3A856FA08F550 /* Pods-GPXParserPodTest.release.xcconfig */,
+				AAFD62D7B1BFDC50D24914C6 /* Pods-GPXParserPodTest.debug.xcconfig */,
+				2BCA2C6E0D24FC96F15E8AF0 /* Pods-GPXParserPodTest.release.xcconfig */,
 			);
-			name = Pods;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		BCD45F2D502A1901B1A4F5FA /* Frameworks */ = {
+		D6C248A25C7798420F3EFFDA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				20CD0CC302507CFBB855189D /* Pods_GPXParserPodTest.framework */,
+				1C1F9B7EC4F6CE25794D9321 /* Pods_GPXParserPodTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -133,11 +133,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4DDD3A1420CCA7590031A048 /* Build configuration list for PBXNativeTarget "GPXParserPodTest" */;
 			buildPhases = (
-				1B5AC75BA2E01579B24A56E6 /* [CP] Check Pods Manifest.lock */,
+				B60554EE6F07AA9A668B6B10 /* [CP] Check Pods Manifest.lock */,
 				4DDD39F020CCA7580031A048 /* Sources */,
 				4DDD39F120CCA7580031A048 /* Frameworks */,
 				4DDD39F220CCA7580031A048 /* Resources */,
-				2BEC3560D70624502CBC10BF /* [CP] Embed Pods Frameworks */,
+				66D16AD75BDA28FE2A613B6C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -178,10 +178,11 @@
 				TargetAttributes = {
 					4DDD39F320CCA7580031A048 = {
 						CreatedOnToolsVersion = 9.4;
+						LastSwiftMigration = 1020;
 					};
 					4DDD3A0A20CCA7590031A048 = {
 						CreatedOnToolsVersion = 9.4;
-						LastSwiftMigration = 1000;
+						LastSwiftMigration = 1020;
 						TestTargetID = 4DDD39F320CCA7580031A048;
 					};
 				};
@@ -227,40 +228,43 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1B5AC75BA2E01579B24A56E6 /* [CP] Check Pods Manifest.lock */ = {
+		66D16AD75BDA28FE2A613B6C /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPXParserPodTest/Pods-GPXParserPodTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GPXParserPodTest/Pods-GPXParserPodTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GPXParserPodTest/Pods-GPXParserPodTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B60554EE6F07AA9A668B6B10 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-GPXParserPodTest-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2BEC3560D70624502CBC10BF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-GPXParserPodTest/Pods-GPXParserPodTest-frameworks.sh",
-				"${PODS_ROOT}/GPXXMLParser/GPXXMLParser.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GPXXMLParser.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPXParserPodTest/Pods-GPXParserPodTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -430,13 +434,15 @@
 		};
 		4DDD3A1520CCA7590031A048 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A0A20C6F01130AC685A2DE4E /* Pods-GPXParserPodTest.debug.xcconfig */;
+			baseConfigurationReference = AAFD62D7B1BFDC50D24914C6 /* Pods-GPXParserPodTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T9QNEM3WER;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GPXParserPodTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -444,20 +450,22 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.inukshuk.GPXParserPodTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
 		4DDD3A1620CCA7590031A048 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E431BFBA20E3A856FA08F550 /* Pods-GPXParserPodTest.release.xcconfig */;
+			baseConfigurationReference = 2BCA2C6E0D24FC96F15E8AF0 /* Pods-GPXParserPodTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T9QNEM3WER;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = GPXParserPodTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -465,7 +473,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.inukshuk.GPXParserPodTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -478,6 +486,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T9QNEM3WER;
 				INFOPLIST_FILE = GPXParserPodTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -485,7 +494,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.inukshuk.GPXParserPodTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPXParserPodTest.app/GPXParserPodTest";
 			};
@@ -499,6 +508,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = T9QNEM3WER;
 				INFOPLIST_FILE = GPXParserPodTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -506,7 +516,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.inukshuk.GPXParserPodTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GPXParserPodTest.app/GPXParserPodTest";
 			};
