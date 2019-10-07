@@ -4,7 +4,7 @@ platform :ios, '12.2'
 use_frameworks!
 
 target 'GPXParserPodTest' do
-    pod ‘GPXXMLParser’, '1.0.15'
+    pod ‘GPXXMLParser’, '1.0.17'
 end
 
 
