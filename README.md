@@ -6,7 +6,7 @@ The following classes are currently exposed in the API and is not exhaustive of 
 
 **Installing the Parser**
 
-The parser is available as a cocoa pod so to install, first install cocoa pods and then add the following to Podfile:
+The parser is available as a cocoa pod, so to install, first install cocoa pods and then add the following to Podfile:
 
 pod &#39;GPXXMLParser&#39;
 
